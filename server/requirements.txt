@@ -5,3 +5,4 @@ flask-cors==3.0.8
 pyscreenshot==1.0
 Pillow==7.1.2
 requests==2.23.0
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
